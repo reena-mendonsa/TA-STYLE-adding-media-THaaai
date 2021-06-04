@@ -1,0 +1,280 @@
+<!-- Create a layout according to the design shown below.
+
+![Adding Media|Hydro Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/adding-media/ex-1.png)
+
+- Video link: https://www.youtube.com/watch?v=AqcjdkPMPJA#action=share
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE  html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Adding Media|Hydro Assignment level 1</title>
+        <link rel="stylesheet" href ="assets/stylesheet/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/471db95236.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main> 
+          <section class="hero">
+           <header>
+            <div class="container flex">
+             
+                <a  class="hydro" href="#" >Hydro</a>
+                <nav class="navLink1 ">
+                    <ul class="menu1 flex">
+                        <li ><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <nav class="navLink2">
+                    <ul class="menu2 flex">
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="btn">Signin/Join</a></li>
+                    </ul>
+                </nav>
+               
+            </div>
+           </header>
+           <!--Middle-->
+           <div class="container flex middle">
+               <div class="text">
+                <h1>We make beautiful<br> websites for people</h1>
+                <div class="flex">
+                    <div><a class="startProj" href="#">Start a project</a></div>
+                    <div class="inquiry">
+                       <p>CALL US (+66)010-020-0340</p>
+                       <p>For any inquiry</p>
+                    </div>
+                </div>
+               </div>
+               <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/AqcjdkPMPJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+           </div>
+         </section> 
+         <section class="section2">
+             <div class="container flex">
+                 <!--Text Box-->
+                 <div class="box1">
+                     <h2>Let us Introduce</h2>
+                     <ul class="squareDots ">
+                         <li class="li1"></li>
+                         <li></li>
+                         <li></li>
+                     </ul>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim.</p>
+                     <p class="box1-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        do eiusmod tempor.</p>   
+                 </div>
+                 <div class="box2">
+                     <div class="flex">
+                         <h3>Web Design</h3>
+                         <span>85%</span>
+                     </div>
+                     <div class="line line1"></div>
+                     <div class="flex">
+                        <h3>Photography</h3>
+                        <span>90%</span>
+                    </div>
+                    <div class="line line2"></div>
+                    <div class="flex">
+                        <h3>Content Marketing</h3>
+                        <span>75%</span>
+                    </div>
+                    <div class="line line3"></div>
+                    <div class="flex">
+                        <h3>CMS Admin</h3>
+                        <span>70%</span>
+                    </div>
+                    <div class="line line4"></div>
+                 </div>
+                 <div class="box1">
+                     <img src="assets/about-image.jpg" alt="Man smiling">
+                 </div>
+
+             </div>
+         </section>
+         <section class="section3">
+            <div class="blog-wrk">
+                
+                 <h2>Our Blog</h2>
+                
+                 <ul class="squareDots flex-center">
+                    <li class="li1"></li>
+                    <li></li>
+                    <li></li>
+                 </ul>
+            </div>
+            <div class="container flex flex-wrap">
+                <div class="blog-box flex ">
+                    <div class="col1">
+                        <img class="blog-images" src="assets/blog-image1.jpg" alt="working on laptop">
+                    </div>
+                     <div class="col2">
+                        <time><i class="far fa-clock"></i> December 22,2017</time>
+                        <h3>How to Find Out Beautiful workspace</h3>
+                        <p>Lorem ipsum dolor sit consectetur
+                        adipiscing morbi venenatis.</p>
+                        <a class="btn-article" href="#">Read article</a>
+                    </div>
+                </div>
+                <div class="blog-box flex">
+                    <div class="col1">
+                        <img class="blog-images" src="assets/blog-image2.jpg" alt="girl sitting">
+                    </div>
+                    <div class="col2">
+                        <time><i class="far fa-clock"></i> December 18,2017</time>
+                        <h3>Woman Sportwear</h3>
+                        <p>Lorem ipsum dolor sit consectetur
+                        adipiscing morbi venenatis.</p>
+                         <a class="btn-article" href="#">Read more</a> 
+                    </div>
+            </div>
+            <div class="blog-box flex">
+                <div class="col1">
+                    <img class="blog-images" src="assets/blog-image3.jpg" alt="girl sitting">
+                </div>
+                <div class="col2">
+                    <time><i class="far fa-clock"></i> December 14,2017</time>
+                    <h3>New Creative Fashion</h3>
+                    <p>Lorem ipsum dolor sit consectetur
+                    adipiscing morbi venenatis.</p>
+                    <a class="btn-article" href="#">Read article</a>
+                </div>
+            
+            </div>
+            <div class="blog-box flex">
+                <div class="col1">
+                    <img class="blog-images" src="assets/blog-image4.jpg" alt="girl sitting">
+                </div>
+                 <div class="col2">
+                    <time><i class="far fa-clock"></i> December 10,2017</time>
+                    <h3>Minimalist Design Trend In 2018.</h3>
+                    <p>Lorem ipsum dolor sit consectetur
+                        adipiscing morbi venenatis.</p>
+                    <a class="btn-article" href="#">View Detail</a>
+                </div>
+            </div>
+         </div>
+        </section>
+            
+         <section class="section4">
+             <div class="container ">
+                 <div class="blog-wrk">
+                     <h2>Our Work</h2>
+                     <ul class="squareDots flex-center">
+                        <li class="li1"></li>
+                        <li></li>
+                        <li></li>
+                     </ul>
+                 </div>
+                 <div class="flex">
+                   <div class="wrk-col">
+                       <img src="assets/work-image1.jpg" alt="workimage1">
+                   </div>
+                   <div class="wrk-col">
+                      <img src="assets/work-image2.jpg" alt="workimage2">
+                   </div>
+                   <div class="wrk-col">
+                       <img src="assets/work-image3.jpg" alt="workimage3">
+                    </div>
+                    <div class="wrk-col">
+                       <img src="assets/work-image4.jpg" alt="workimage4">
+                 </div>
+                </div>
+             </div>
+         </section>
+
+         <section class="section5">
+             <div class="container">
+                 <div class="contact">
+                     <h2>Contact us</h2>
+                     <ul class="squareDots flex-center">
+                        <li class="li1"></li>
+                        <li></li>
+                        <li></li>
+                     </ul>
+                    </div> 
+                    <div> 
+                    <div class="flex">    
+                     <div class="text-box">
+
+                        <input type="text" class="input-box" name="fname" value="Full Name">
+                        <input type="email" class="input-box" name="email" value="Your Email"><br>
+                        <input type="tel" class="input-box" name="telephone" value="Your Phone">
+                        <input type="text" class="input-box" name="budget" value="Budget Level" ><br>
+                        <textarea class="msg" name="message" rows="10" cols="80">Your Requirements</textarea><br>
+                        <input type="submit" value="Send Message" class="submit">
+                    </div>
+                    <div class="map-img">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d124479.04792046435!2d77.58087137750937!3d12.845198175751634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1622738711488!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    </div>
+                   </div>
+             </div>
+         </section>
+
+         <footer class="footer">
+            <div class="container flex">
+                <div class="footer-box1">
+                    <h3 class="titles">Hydro Company</h3>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga omnis impedit nobis laboriosam consequuntur debitis dolor magna aliqua.</p>
+                </div>
+                <div class="footer-box2">
+                    <h3 class="titles">Company</h3>
+                    <ul class="lists">
+                        <li>About us</li>
+                        <li>Join our team</li>
+                        <li>Read Blog</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div class="footer-box3">
+                    <h3 class="titles">Services</h3>
+                    <ul class="lists2">
+                        <li>Pricing</li>
+                        <li>Documentation</li>
+                        <li>Support</li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-box4">
+                    <h3 class="titles">Find us</h3>
+                    <ul class="lists3">
+                        <li>23 Grand Rama iX.</li>
+                        <li>Krung Thep Maha Nakhon 10400</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-line"></div>
+                <div class="flex">
+                <div class="copyrt">
+                    <small>Copyright&copy;2017 Your Company</small>
+                </div>
+               
+                <div class="footer-nav">
+                    <span>Call us(+66)010-020-3040</span>
+                    <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                
+                </div>
+            </div>
+            </div>
+         </footer>
+        </main>   
+    </body>
+</html>
